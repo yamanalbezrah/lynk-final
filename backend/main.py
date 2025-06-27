@@ -69,10 +69,7 @@ async def create_weather_request(request: WeatherRequest):
 
 @app.get("/weather/{weather_id}")
 async def get_weather_data(weather_id: str):
-    """
-    Retrieve stored weather data by ID.
-    This endpoint is already implemented for the assessment.
-    """
+    
     if weather_id not in weather_storage:
         raise HTTPException(status_code=404, detail="Weather data not found")
     
