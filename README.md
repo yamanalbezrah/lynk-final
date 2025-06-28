@@ -105,19 +105,4 @@ WEATHERSTACK_API_KEY=your_api_key_here
 - [ ] Weather alerts
 - [ ] Multi-language support
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgments
-
-- WeatherStack for weather data API
-- Next.js team for the amazing framework
-- FastAPI for the modern Python web framework
